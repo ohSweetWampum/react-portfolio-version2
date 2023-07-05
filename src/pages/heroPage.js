@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import "../styles/italicFont.css";
 
 const circleLogo = process.env.PUBLIC_URL + "/images/UCBCircleLogo.png";
-const bannerLogo = process.env.PUBLIC_URL + "/images/UCBBannerLogo.png";
 
 const heroPageNavigation = [
   { name: "Reason For Release", href: "/reasonForRelease" },
@@ -16,42 +16,43 @@ export default function HeroPage() {
   return (
     <div className="flex justify-center items-center">
       <div className="text-center">
-        <h1 className="display-">UNCLASSIFIED</h1>
-        <h1 className="lead">
+        <h2>UNCLASSIFIED</h2>
+        <h2>
           TOP SECRET REPORT ON OPERATIVE BY NAME OF{" "}
           <span>solid black here</span> FROM THE<span>solid black here</span>{" "}
           PROGRAM{" "}
-        </h1>
+        </h2>
         {/* Have a thin black line going through the entire p text */}
-        <h2>UC-Berkeley Select Committee on Intelligence</h2>
-        <h1>
+        <h1>UC-Berkeley Select Committee on Intelligence</h1>
+        <h1 className="italic">
           Committee Study of top secret operatives and their usefulness to
           private industry
         </h1>
         {/* put in italics */}
         <img src={circleLogo} alt="UCB Circle Logo" />
-        <img src={bannerLogo} alt="UCB Banner Logo" />
-        <div className="hidden lg:flex lg:gap-x-12">
+
+        <div className="block lg:hidden">
           {heroPageNavigation.map((item) => (
             <Link
               key={item.name}
               to={item.href}
-              className="text-sm font-semibold leading-6 text-gray-900"
+              className="text-sm font-base leading-6 text-black underline-none block"
             >
               {item.name}
             </Link>
           ))}
         </div>
-        <h1>Approved June 12th, 2023</h1>
-        <h1>Updated July 3rd, 2023</h1>
-        <h1>Declassification Revisions July 3rd, 2023</h1>
+
+        <h4 className="italic">Approved June 12th, 2023</h4>
+        <h4 className=" italic">Updated July 3rd, 2023</h4>
+        <h4 className=" italic">Declassification Revisions July 3rd, 2023</h4>
         {/* all three h1's in italics */}
-        <h1 className="display-">UNCLASSIFIED</h1>
-        <h1 className="lead">
+        <h2>UNCLASSIFIED</h2>
+        <h2>
           TOP SECRET REPORT ON OPERATIVE BY NAME OF{" "}
           <span>solid black here</span> FROM THE<span>solid black here</span>{" "}
           PROGRAM{" "}
-        </h1>
+        </h2>
       </div>
     </div>
   );
