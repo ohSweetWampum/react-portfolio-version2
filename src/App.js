@@ -1,6 +1,6 @@
 import React from "react";
 import SiteContainer from "./components/siteContainer";
-import "./styles/App.css";
+import "./App.css";
 
 function App() {
   return (

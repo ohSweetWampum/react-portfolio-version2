@@ -1,9 +1,11 @@
+//This file is my app's entry point. It's where the execution of my app begins.
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./tailwind.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
