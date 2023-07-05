@@ -14,8 +14,8 @@ export default function HeroPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="container">
-      <div className="jumbotron">
+    <div className="flex justify-center items-center">
+      <div className="text-center">
         <h1 className="display-">UNCLASSIFIED</h1>
         <h1 className="lead">
           TOP SECRET REPORT ON OPERATIVE BY NAME OF{" "}
