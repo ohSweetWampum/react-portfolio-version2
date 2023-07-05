@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Footer from "./footer";
-import NavBar from "./navbar";
+import Navbar from "./navbar";
 
 import OperativesProfile from "./operativesProfile";
 import FieldAssignments from "./fieldAssignments";
@@ -29,7 +29,7 @@ export default function Container() {
 
   return (
     <div>
-      <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
 
       <main>{renderPage()}</main>
 
