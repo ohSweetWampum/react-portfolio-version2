@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Footer from "./footer";
-import Navbar from "./navbar";
+import Footer from "../components/footer";
+import Navbar from "../components/navbar";
 
 import OperativesProfile from "./operativesProfile";
 import FieldAssignments from "./fieldAssignments";
