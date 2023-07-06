@@ -23,7 +23,7 @@ export default function HeroPage() {
           PROGRAM{" "}
         </h2>
         {/* Have a thin black line going through the entire p text */}
-        <h1>UC-Berkeley Select Committee on Intelligence</h1>
+        <h1 className="bold">UC-Berkeley Select Committee on Intelligence</h1>
         <h1 className="italic">
           Committee Study of top secret operatives and their usefulness to
           private industry
