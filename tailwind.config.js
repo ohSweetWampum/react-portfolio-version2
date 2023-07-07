@@ -16,7 +16,7 @@ module.exports = {
       },
 
       fontFamily: {
-        "special-elite": ["'Special Elite'", "cursive"],
+        special: ["'Special Elite'", "cursive"],
       },
     },
   },
