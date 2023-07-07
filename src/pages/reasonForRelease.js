@@ -13,19 +13,19 @@ const ReasonForRelease = () => {
     "Educational Dedication: While his educational background lies in biology, his successful completion of the Full-Stack Web Developer Bootcamp illustrates his determination to transition into the software development field. His solid educational foundation, combined with his practical experience and technical expertise, demonstrates his readiness to apply his knowledge and skills to software-related roles.",
   ];
   return (
-    <div className="  pointer-event-none overflow-hidden bg-white py-24 sm:py-32">
+    <div className="  bg-transparent py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-indigo-600">
+              <h2 className="text-base font-semibold leading-7 text-black-600">
                 REASON FOR RELEASE of UNCLASSIFIED INFORMATION
               </h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <p className="mt-2 text-3xl font-bold tracking-tight text-black-600 sm:text-4xl">
                 As determined by the UC-Berkeley Select Committee on
                 Intelligence
               </p>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <p className="mt-6 text-lg leading-8 text-black-600">
                 As Follows:
               </p>
               <ul>
