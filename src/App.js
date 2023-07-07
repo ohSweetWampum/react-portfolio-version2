@@ -27,15 +27,15 @@ function RouteWrapper() {
       {location.pathname !== "/" && <Navbar />}
       <SiteContainer>
         <Routes>
-          <Route
+          {/* <Route
             path="/communicationChannels"
             element={<CommunicationChannels />}
-          />
+          /> */}
           <Route path="/reasonForRelease" element={<ReasonForRelease />} />
           <Route path="/executiveSummary" element={<ExecutiveSummary />} />
           <Route path="/fieldAssignments" element={<FieldAssignments />} />
           <Route path="/mainPage" element={<MainPage />} />
-          <Route path="/operationHistory" element={<OperationHistory />} />
+          {/* <Route path="/operationHistory" element={<OperationHistory />} /> */}
           <Route path="/operativesProfile" element={<OperativesProfile />} />
           <Route path="/pageNotFound" element={<PageNotFound />} />
           <Route path="/" element={<HeroPage />} />
