@@ -96,13 +96,19 @@ const FieldAssignments = () => {
               <td className="px-4 py-3 border-black border text-xl">
                 {job.position}
               </td>
-              <td className="px-4 py-3 border-black border text-xl">
+              <td className="px-4 py-3 border-black border text-xl ">
                 <ul>
                   {job.responsibilities.map((responsibility, resIndex) => (
-                    <li key={resIndex}>{responsibility}</li>
+                    <li
+                      key={resIndex}
+                      class="text-decoration-black line-through decoration-8 hover:no-underline "
+                    >
+                      {responsibility}
+                    </li>
                   ))}
                 </ul>
               </td>
+
               <td className="px-4 py-3 border-black border text-xl">
                 {job.contact}
               </td>

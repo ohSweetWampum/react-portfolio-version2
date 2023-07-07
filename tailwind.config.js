@@ -3,12 +3,26 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}", "../public/index.html"],
   theme: {
     extend: {
-      boxShadow: {
-        pen: "0 0 3px 2px rgba(0, 0, 0, 0.5)",
+      keyframes: {
+        pulse: {
+          // @ts-ignore
+          "0%, 100%": { opacity: 0 },
+          // @ts-ignore
+          "50%": { opacity: 1 },
+        },
       },
+      animation: {
+        pulse: "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+      },
+
       fontFamily: {
         "special-elite": ["'Special Elite'", "cursive"],
       },
+    },
+  },
+  variants: {
+    extend: {
+      textDecoration: ["responsive", "hover", "focus", "active", "group-hover"],
     },
   },
   plugins: [
