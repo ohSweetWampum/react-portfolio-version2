@@ -16,7 +16,7 @@ export default function HeroPage() {
   return (
     <div className="flex justify-center items-center">
       <div className="text-center">
-        <h2 className="text-red-700 text-2xl animate-pulse">UNCLASSIFIED</h2>
+        <h2 className="text-red-700 text-2xl animate-pulse">CLASSIFIED</h2>
         <h2>
           TOP SECRET REPORT ON OPERATIVE BY NAME OF{" "}
           <span className="text-decoration-black line-through decoration-8 hover:no-underline">
@@ -61,7 +61,7 @@ export default function HeroPage() {
         <h4 className="italic">Updated July 3rd, 2023</h4>
         <h4 className="italic">Declassification Revisions July 3rd, 2023</h4>
 
-        <h2 className="text-red-700 text-2xl animate-pulse">UNCLASSIFIED</h2>
+        <h2 className="text-red-700 text-2xl animate-pulse">CLASSIFIED</h2>
         <h2>
           TOP SECRET REPORT ON OPERATIVE BY NAME OF{" "}
           <span className="text-decoration-black line-through decoration-8 hover:no-underline">
