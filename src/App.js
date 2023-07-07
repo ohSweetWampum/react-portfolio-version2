@@ -9,11 +9,11 @@ import SiteContainer from "./components/siteContainer";
 
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
-// import CommunicationChannels from "./pages/communicationChannels";
+import CommunicationChannels from "./pages/communicationChannels";
 import ExecutiveSummary from "./pages/executiveSummary";
-// import FieldAssignments from "./pages/fieldAssignments";
-// import MainPage from "./pages/mainPage";
-// import OperationHistory from "./pages/operationHistory";
+import FieldAssignments from "./pages/fieldAssignments";
+import MainPage from "./pages/mainPage";
+import OperationHistory from "./pages/operationHistory";
 import OperativesProfile from "./pages/operativesProfile";
 import PageNotFound from "./pages/pageNotFound";
 import ReasonForRelease from "./pages/reasonForRelease";
@@ -33,9 +33,9 @@ function RouteWrapper() {
           /> */}
           {/* <Route path="/reasonForRelease" element={<ReasonForRelease />} /> */}
           {/* <Route path="/executiveSummary" element={<ExecutiveSummary />} /> */}
-          {/* <Route path="/fieldAssignments" element={<FieldAssignments />} />
+          <Route path="/fieldAssignments" element={<FieldAssignments />} />
           <Route path="/mainPage" element={<MainPage />} />
-          <Route path="/operationHistory" element={<OperationHistory />} /> */}
+          {/* <Route path="/operationHistory" element={<OperationHistory />} /> */}
           <Route path="/operativesProfile" element={<OperativesProfile />} />
           {/* <Route path="/pageNotFound" element={<PageNotFound />} /> */}
           <Route path="/" element={<HeroPage />} />
