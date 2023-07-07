@@ -18,14 +18,16 @@ export default function HeroPage() {
       <div className="text-center">
         <h2 className="text-red-700 text-2xl animate-pulse">UNCLASSIFIED</h2>
         <h2>
-          TOP SECRET REPORT ON OPERATIVE BY NAME OF
-          <span className="line-through underline-none hover:no-underline">
-            Matthew Gibson
+          TOP SECRET REPORT ON OPERATIVE BY NAME OF{" "}
+          <span className="text-decoration-black line-through decoration-8 hover:no-underline">
+            {" "}
+            Matthew Gibson{" "}
           </span>
-          FROM THE
-          <span className="line-through underline-none hover:no-underline">
-            UC-Berkeley
-          </span>
+          FROM THE{" "}
+          <span className="text-decoration-black line-through decoration-8 hover:no-underline">
+            {" "}
+            UC-Berkeley{" "}
+          </span>{" "}
           Program
         </h2>
 
@@ -37,9 +39,13 @@ export default function HeroPage() {
           private industry
         </h1>
 
-        <img src={circleLogo} alt="UCB Circle Logo" />
+        <img
+          src={circleLogo}
+          alt="UCB Circle Logo"
+          style={{ transform: "scale(0.5)" }}
+        />
 
-        <div className="block lg:hidden">
+        <div className="block ">
           {heroPageNavigation.map((item) => (
             <Link
               key={item.name}
@@ -57,14 +63,16 @@ export default function HeroPage() {
 
         <h2 className="text-red-700 text-2xl animate-pulse">UNCLASSIFIED</h2>
         <h2>
-          TOP SECRET REPORT ON OPERATIVE BY NAME OF
-          <span className="line-through underline-none hover:no-underline">
-            Matthew Gibson
+          TOP SECRET REPORT ON OPERATIVE BY NAME OF{" "}
+          <span className="text-decoration-black line-through decoration-8 hover:no-underline">
+            {" "}
+            Matthew Gibson{" "}
           </span>
-          FROM THE
-          <span className="line-through underline-none hover:no-underline">
-            UC-Berkeley
-          </span>
+          FROM THE{" "}
+          <span className="text-decoration-black line-through decoration-8 hover:no-underline">
+            {" "}
+            UC-Berkeley{" "}
+          </span>{" "}
           Program
         </h2>
       </div>
